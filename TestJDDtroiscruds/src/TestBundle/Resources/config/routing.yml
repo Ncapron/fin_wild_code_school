@@ -1,0 +1,17 @@
+test_accueil:
+    resource: "@TestBundle/Resources/config/routing/accueil.yml"
+    prefix:   /accueil
+
+test_homepage:
+    path:     /
+    defaults: { _controller: TestBundle:Default:index }
+
+test_artiste:
+    resource: "@TestBundle/Resources/config/routing/artiste.yml"
+    prefix:   /artiste
+
+test_commercant:
+    resource: "@TestBundle/Resources/config/routing/commercant.yml"
+    prefix:   /commercant
+
+

@@ -1,0 +1,24 @@
+TestBundle\Entity\Artiste:
+    type: entity
+    table: null
+    repositoryClass: TestBundle\Repository\ArtisteRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: 255
+        image:
+            type: string
+            length: 255
+        categories:
+            type: string
+            length: 255
+        oeuvre:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

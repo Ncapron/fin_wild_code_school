@@ -1,0 +1,21 @@
+TestBundle\Entity\Commercant:
+    type: entity
+    table: null
+    repositoryClass: TestBundle\Repository\CommercantRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        boutique:
+            type: string
+            length: 255
+        responsable:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
